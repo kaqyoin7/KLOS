@@ -80,7 +80,7 @@ LABEL_SEG_CODE32:
 
     mov [gs:edi], ax
 
-    ;jmp $
+    jmp $
 
 SegCode32Len    equ $ - LABEL_SEG_CODE32
 ; End of Section .32
