@@ -77,6 +77,7 @@ LABEL_SEG_CODE32:
     mov edi, (80 * 10 + 40) * 2  ;
     mov ah, 0Ch ;红字黑低 => 低4位：前景色（红色 = 1100b），高4位：背景色（黑色 = 0000b）
     mov al, 'F'
+
     mov [gs:edi], ax
 
     jmp $
